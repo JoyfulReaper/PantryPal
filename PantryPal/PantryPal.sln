@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryPal.API", "PantryPal.API\PantryPal.API.csproj", "{26EE4355-DAFB-4F1A-B81C-4950E3F7F000}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PantryPal.Database", "PantryPal.Database\PantryPal.Database.sqlproj", "{0AE5B520-FE61-43DF-ABD8-6BBF82F5CD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryPal.Library", "PantryPal.Library\PantryPal.Library.csproj", "{DD6933CD-2908-408F-A056-9E1BB169648B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryPal.Blazor", "PantryPal.Blazor\PantryPal.Blazor.csproj", "{A4D46171-A7CE-4124-87B6-22AD4ED42D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryPal.ApiClient", "PantryPal.ApiClient\PantryPal.ApiClient.csproj", "{5FE39A89-5BA8-4E93-935B-F54582B78A8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26EE4355-DAFB-4F1A-B81C-4950E3F7F000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EE4355-DAFB-4F1A-B81C-4950E3F7F000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EE4355-DAFB-4F1A-B81C-4950E3F7F000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EE4355-DAFB-4F1A-B81C-4950E3F7F000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE5B520-FE61-43DF-ABD8-6BBF82F5CD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE5B520-FE61-43DF-ABD8-6BBF82F5CD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE5B520-FE61-43DF-ABD8-6BBF82F5CD7E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0AE5B520-FE61-43DF-ABD8-6BBF82F5CD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE5B520-FE61-43DF-ABD8-6BBF82F5CD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE5B520-FE61-43DF-ABD8-6BBF82F5CD7E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DD6933CD-2908-408F-A056-9E1BB169648B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6933CD-2908-408F-A056-9E1BB169648B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6933CD-2908-408F-A056-9E1BB169648B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6933CD-2908-408F-A056-9E1BB169648B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D46171-A7CE-4124-87B6-22AD4ED42D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D46171-A7CE-4124-87B6-22AD4ED42D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D46171-A7CE-4124-87B6-22AD4ED42D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D46171-A7CE-4124-87B6-22AD4ED42D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE39A89-5BA8-4E93-935B-F54582B78A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE39A89-5BA8-4E93-935B-F54582B78A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE39A89-5BA8-4E93-935B-F54582B78A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE39A89-5BA8-4E93-935B-F54582B78A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3F5FFCA-DDBB-4D12-A166-E715D29ED521}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Category]
+(
+	[CategoryId] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(100) NOT NULL, 
+    [DateCreated] DATETIME2 NOT NULL DEFAULT GETUTCDATE(), 
+    [DateDeleted] DATETIME2 NULL
+)

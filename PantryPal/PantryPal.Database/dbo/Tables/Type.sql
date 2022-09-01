@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Type]
+(
+	[TypeId] INT NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(100) NOT NULL, 
+    [DateAdded] DATETIME2 NOT NULL DEFAULT GETUTCDATE()
+)
