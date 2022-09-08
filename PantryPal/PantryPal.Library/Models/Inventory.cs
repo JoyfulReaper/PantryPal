@@ -14,5 +14,5 @@ public class Inventory
     public DateTime PurchaseDate { get; set; }
     public DateTime? DateConsumed { get; set; }
     public DateTime DateCreated { get; set; }
-    public bool IsConsumed { get; set; }
+    public bool IsWasted { get; set; }
 }
